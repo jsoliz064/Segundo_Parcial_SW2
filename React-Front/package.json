@@ -1,0 +1,34 @@
+{
+  "name": "pdf_viewer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.10.15",
+    "@mui/material": "^5.10.15",
+    "@react-pdf-viewer/core": "^3.9.0",
+    "@react-pdf-viewer/default-layout": "^3.9.0",
+    "@reduxjs/toolkit": "^1.9.1",
+    "axios": "^1.2.1",
+    "pdfjs-dist": "^3.1.81",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "6",
+    "react-timeago": "^7.1.0",
+    "sweetalert2": "^11.6.15"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "@vitejs/plugin-react": "^2.2.0",
+    "vite": "^3.2.4"
+  }
+}

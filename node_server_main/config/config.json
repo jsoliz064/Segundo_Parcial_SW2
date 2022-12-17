@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "015340",
+    "database": "p2_sw2",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+
+    "seederStorage": "json",
+    "seederStoragePath": "./seeders/sequelize-data.json"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "015340",
+    "database": "p2_sw2",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "015340",
+    "database": "p2_sw2",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
